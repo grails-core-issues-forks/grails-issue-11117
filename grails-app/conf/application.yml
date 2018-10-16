@@ -28,6 +28,9 @@ endpoints:
 
 ---
 grails:
+    web:
+        url:
+            converter: hyphenated
     mime:
         disable:
             accept:
